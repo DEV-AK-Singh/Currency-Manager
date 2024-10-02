@@ -3,7 +3,19 @@
 
 Currency Manager is a web application that allows users to manage their currency transactions efficiently. This project is built using the MERN stack (MongoDB, Express, React, and Node.js) and incorporates essential features like basic CRUD operations, advanced queries with aggregation pipelines, indexing for performance optimization, transaction support, and more. It is also designed with scalability in mind, leveraging MongoDB sharding and replication for high availability.
 
+## Preview of Web-App
+
+![Home Page](screenshots/Preview-1.png)
+![Register Page](screenshots/Preview-2.png)
+![Login Page](screenshots/Preview-3.png)
+![Dashboard](screenshots/Preview-4.png)
+![Contacts](screenshots/Preview-5.png)
+![Payment](screenshots/Preview-6.png)
+![History](screenshots/Preview-7.png)
+![Transaction Details](screenshots/Preview-8.png)
+
 ## Table of Contents
+
 - [Features](#features)
 - [Technologies](#technologies)
 - [Folder Structure](#folder-structure)
@@ -14,6 +26,7 @@ Currency Manager is a web application that allows users to manage their currency
 - [License](#license)
 
 ## Features
+
 - **User Authentication**: Sign-up, login, and session management with secure user data handling.
 - **Currency Transactions**: Add, update, delete, and view transaction history.
 - **Advanced Queries**: Search and filter transactions based on various criteria (date, amount, etc.).
@@ -24,6 +37,7 @@ Currency Manager is a web application that allows users to manage their currency
 - **Scalability**: Leverages MongoDB sharding and replication for high availability.
 
 ## Technologies
+
 - **Frontend**: React, TailwindCSS
 - **Backend**: Node.js, Express.js, MongoDB
 - **Database**: MongoDB (with replication and sharding for scalability)
@@ -33,7 +47,7 @@ Currency Manager is a web application that allows users to manage their currency
 
 ## Folder Structure
 
-```
+```folder
 currency-manager/
 │
 ├── backend/
@@ -62,6 +76,7 @@ currency-manager/
 ## Installation
 
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/) (v14+)
 - [MongoDB](https://www.mongodb.com/try/download/community) (v4+)
 - [npm](https://www.npmjs.com/)
@@ -89,7 +104,7 @@ currency-manager/
 
    Add the following environment variables to `.env`:
 
-   ```
+   ```env
    PORT=5000
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret
