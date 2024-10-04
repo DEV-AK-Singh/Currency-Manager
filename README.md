@@ -1,29 +1,9 @@
 
 # Currency Manager
 
+## Project Overview
+
 Currency Manager is a web application that allows users to manage their currency transactions efficiently. This project is built using the MERN stack (MongoDB, Express, React, and Node.js) and incorporates essential features like basic CRUD operations, advanced queries with aggregation pipelines, indexing for performance optimization, transaction support, and more. It is also designed with scalability in mind, leveraging MongoDB sharding and replication for high availability.
-
-## Preview of Web-App
-
-![Home Page](screenshots/Preview-1.png)
-![Register Page](screenshots/Preview-2.png)
-![Login Page](screenshots/Preview-3.png)
-![Dashboard](screenshots/Preview-4.png)
-![Contacts](screenshots/Preview-5.png)
-![Payment](screenshots/Preview-6.png)
-![History](screenshots/Preview-7.png)
-![Transaction Details](screenshots/Preview-8.png)
-
-## Table of Contents
-
-- [Features](#features)
-- [Technologies](#technologies)
-- [Folder Structure](#folder-structure)
-- [Installation](#installation)
-- [API Endpoints](#api-endpoints)
-- [Frontend](#frontend)
-- [Backend](#backend)
-- [License](#license)
 
 ## Features
 
@@ -35,6 +15,17 @@ Currency Manager is a web application that allows users to manage their currency
 - **MongoDB Transactions**: Atomic operations to ensure safe and reliable transactions.
 - **Backup and Restore**: Backup the database and restore it to protect data integrity.
 - **Scalability**: Leverages MongoDB sharding and replication for high availability.
+
+## Preview of Web-App
+
+![Home Page](screenshots/Preview-1.png)
+![Register Page](screenshots/Preview-2.png)
+![Login Page](screenshots/Preview-3.png)
+![Dashboard](screenshots/Preview-4.png)
+![Contacts](screenshots/Preview-5.png)
+![Payment](screenshots/Preview-6.png)
+![History](screenshots/Preview-7.png)
+![Transaction Details](screenshots/Preview-8.png)
 
 ## Technologies
 
