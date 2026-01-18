@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-8 sm:px-6 lg:px-8 lg:pt-12">
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-3xl">
-              <span className="block">Ready to dive in?</span>
+              <span className="block">Ready to dive in? Made with ❤️</span>
             </h2>
 
             <p className="mx-auto mt-4 max-w-sm text-gray-500">
